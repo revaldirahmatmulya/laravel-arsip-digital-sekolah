@@ -1,12 +1,14 @@
 a {
     text-decoration: none;
 }
+
 .container {
     padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .login-wrap {
     display: flex;
 
@@ -16,19 +18,22 @@ a {
 
     position: relative;
 }
+
 .image-wrap {
     width: 30vw;
     height: 95vh;
     background-image: url("../image/login-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
+
 .overlay {
     background-color: black;
     height: 95vh;
     opacity: 0.4;
 }
+
 .text-on-image {
     padding: 70px 20px 0 30px;
     width: 200px;
@@ -38,10 +43,12 @@ a {
     color: rgb(255, 255, 255);
     z-index: 10;
 }
+
 .text-on-image h1 {
     font-family: "Carter One", cursive;
     line-height: 50px;
 }
+
 .text-on-image p {
     font-family: "Courier New", Courier, monospace;
 }
@@ -49,15 +56,18 @@ a {
 .login-img {
     height: 50vh;
 }
+
 .form-wrap {
     padding: 20px 30px 20px 60px;
     display: flex;
     flex-direction: column;
 }
+
 form {
     display: flex;
     flex-direction: column;
 }
+
 .username-field,
 .pass-field {
     width: 300px;
@@ -66,6 +76,7 @@ form {
     border-right: 20px;
     border-top: 300px;
 }
+
 label {
     margin-bottom: 5px;
 }
@@ -80,6 +91,11 @@ label {
     font-size: 16px;
     font-weight: 800;
 }
+
 .login-text {
     margin-bottom: 30px;
+}
+
+.btn-google:hover {
+    color: white;
 }
